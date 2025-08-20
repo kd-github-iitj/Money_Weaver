@@ -57,6 +57,15 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Custom dashboard colors
+        dashboard: {
+          pink: "hsl(var(--pink-gradient))",
+          blue: "hsl(var(--blue-gradient))",
+          purple: "hsl(var(--purple-gradient))",
+          green: "hsl(var(--green-gradient))",
+          orange: "hsl(var(--orange-gradient))",
+          red: "hsl(var(--red-gradient))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
