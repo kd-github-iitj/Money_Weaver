@@ -31,7 +31,7 @@ export default function Index() {
             </h1>
             <p className="text-gray-600">Complete the following steps to get started</p>
           </div>
-
+          
           <div className="flex flex-wrap xl:flex-nowrap gap-3 xl:gap-4">
             <Button className="bg-pink-500 hover:bg-pink-600 text-white rounded-lg px-4 py-2 h-10 text-sm font-medium">
               <span className="flex items-center gap-2">
@@ -98,54 +98,54 @@ export default function Index() {
 
         {/* Additional Stats Row */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
-          <div className="bg-white rounded-2xl p-6 border border-gray-100">
+          <div className="bg-white rounded-xl p-4 border border-gray-100">
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-sm font-medium text-gray-600">Live stream viewers</p>
-                <p className="text-2xl font-bold text-gray-900 mt-1">23,466</p>
+                <p className="text-xl font-bold text-gray-900 mt-1">23,466</p>
                 <p className="text-sm text-gray-500 mt-1">Yesterday 22.3%</p>
               </div>
-              <div className="w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center">
-                <TrendingUp className="w-6 h-6 text-orange-600" />
+              <div className="w-10 h-10 bg-orange-100 rounded-lg flex items-center justify-center">
+                <TrendingUp className="w-5 h-5 text-orange-600" />
               </div>
             </div>
           </div>
           
-          <div className="bg-white rounded-2xl p-6 border border-gray-100">
+          <div className="bg-white rounded-xl p-4 border border-gray-100">
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-sm font-medium text-gray-600">New attention</p>
-                <p className="text-2xl font-bold text-gray-900 mt-1">590</p>
+                <p className="text-xl font-bold text-gray-900 mt-1">590</p>
                 <p className="text-sm text-gray-500 mt-1">Yesterday 86%</p>
               </div>
-              <div className="w-12 h-12 bg-red-100 rounded-xl flex items-center justify-center">
-                <BarChart3 className="w-6 h-6 text-red-600" />
+              <div className="w-10 h-10 bg-red-100 rounded-lg flex items-center justify-center">
+                <BarChart3 className="w-5 h-5 text-red-600" />
               </div>
             </div>
           </div>
           
-          <div className="bg-white rounded-2xl p-6 border border-gray-100">
+          <div className="bg-white rounded-xl p-4 border border-gray-100">
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-sm font-medium text-gray-600">Cumulative attention</p>
-                <p className="text-2xl font-bold text-gray-900 mt-1">135,743</p>
+                <p className="text-xl font-bold text-gray-900 mt-1">135,743</p>
                 <p className="text-sm text-gray-500 mt-1">Yesterday 143,052</p>
               </div>
-              <div className="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center">
-                <Target className="w-6 h-6 text-purple-600" />
+              <div className="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center">
+                <Target className="w-5 h-5 text-purple-600" />
               </div>
             </div>
           </div>
           
-          <div className="bg-white rounded-2xl p-6 border border-gray-100">
+          <div className="bg-white rounded-xl p-4 border border-gray-100">
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-sm font-medium text-gray-600">Number of orders</p>
-                <p className="text-2xl font-bold text-gray-900 mt-1">5,249</p>
+                <p className="text-xl font-bold text-gray-900 mt-1">5,249</p>
                 <p className="text-sm text-gray-500 mt-1">Yesterday 5,665</p>
               </div>
-              <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center">
-                <ShoppingBag className="w-6 h-6 text-green-600" />
+              <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center">
+                <ShoppingBag className="w-5 h-5 text-green-600" />
               </div>
             </div>
           </div>
