@@ -30,23 +30,34 @@ export default function Index() {
               <h1 className="text-xl font-semibold text-gray-900 mb-1">
                 Well begun is half done
               </h1>
-              <p className="text-gray-600 text-sm">Complete the following steps to get started</p>
+              <p className="text-gray-600 text-sm">
+                Complete the following steps to get started
+              </p>
             </div>
-            
+
             <div className="flex flex-wrap lg:flex-nowrap gap-2 lg:gap-3">
               <Button className="bg-pink-500 hover:bg-pink-600 text-white rounded-lg px-4 py-2 h-10 text-sm font-medium">
                 <span className="flex items-center gap-2">
-                  ✓ Certification <span className="bg-pink-400 text-xs px-2 py-1 rounded-full">Set</span>
+                  ✓ Certification{" "}
+                  <span className="bg-pink-400 text-xs px-2 py-1 rounded-full">
+                    Set
+                  </span>
                 </span>
               </Button>
               <Button className="bg-blue-500 hover:bg-blue-600 text-white rounded-lg px-4 py-2 h-10 text-sm font-medium">
                 <span className="flex items-center gap-2">
-                  ↗ Upload a product <span className="bg-blue-400 text-xs px-2 py-1 rounded-full">5/6</span>
+                  ↗ Upload a product{" "}
+                  <span className="bg-blue-400 text-xs px-2 py-1 rounded-full">
+                    5/6
+                  </span>
                 </span>
               </Button>
               <Button className="bg-purple-500 hover:bg-purple-600 text-white rounded-lg px-4 py-2 h-10 text-sm font-medium">
                 <span className="flex items-center gap-2">
-                  ↗ Open for sale <span className="bg-purple-400 text-xs px-2 py-1 rounded-full">0/6</span>
+                  ↗ Open for sale{" "}
+                  <span className="bg-purple-400 text-xs px-2 py-1 rounded-full">
+                    0/6
+                  </span>
                 </span>
               </Button>
             </div>
@@ -56,12 +67,17 @@ export default function Index() {
         {/* Today's Data Section */}
         <div className="bg-white rounded-2xl p-4 border border-gray-100">
           <div className="flex items-center justify-between mb-3">
-            <h2 className="text-lg font-semibold text-gray-900">Today's data</h2>
-            <Button variant="ghost" className="text-pink-500 hover:text-pink-600 text-sm">
+            <h2 className="text-lg font-semibold text-gray-900">
+              Today's data
+            </h2>
+            <Button
+              variant="ghost"
+              className="text-pink-500 hover:text-pink-600 text-sm"
+            >
               More
             </Button>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 mb-3">
             <StatCard
               title="Payment amount"
@@ -102,7 +118,9 @@ export default function Index() {
             <div className="bg-gray-50 rounded-xl p-3 border border-gray-100">
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="text-sm font-medium text-gray-600">Live stream viewers</p>
+                  <p className="text-sm font-medium text-gray-600">
+                    Live stream viewers
+                  </p>
                   <p className="text-lg font-bold text-gray-900 mt-1">23,466</p>
                   <p className="text-xs text-gray-500 mt-1">Yesterday 22.3%</p>
                 </div>
@@ -111,11 +129,13 @@ export default function Index() {
                 </div>
               </div>
             </div>
-            
+
             <div className="bg-gray-50 rounded-xl p-3 border border-gray-100">
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="text-sm font-medium text-gray-600">New attention</p>
+                  <p className="text-sm font-medium text-gray-600">
+                    New attention
+                  </p>
                   <p className="text-lg font-bold text-gray-900 mt-1">590</p>
                   <p className="text-xs text-gray-500 mt-1">Yesterday 86%</p>
                 </div>
@@ -124,24 +144,32 @@ export default function Index() {
                 </div>
               </div>
             </div>
-            
+
             <div className="bg-gray-50 rounded-xl p-3 border border-gray-100">
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="text-sm font-medium text-gray-600">Cumulative attention</p>
-                  <p className="text-lg font-bold text-gray-900 mt-1">135,743</p>
-                  <p className="text-xs text-gray-500 mt-1">Yesterday 143,052</p>
+                  <p className="text-sm font-medium text-gray-600">
+                    Cumulative attention
+                  </p>
+                  <p className="text-lg font-bold text-gray-900 mt-1">
+                    135,743
+                  </p>
+                  <p className="text-xs text-gray-500 mt-1">
+                    Yesterday 143,052
+                  </p>
                 </div>
                 <div className="w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center">
                   <Target className="w-4 h-4 text-purple-600" />
                 </div>
               </div>
             </div>
-            
+
             <div className="bg-gray-50 rounded-xl p-3 border border-gray-100">
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="text-sm font-medium text-gray-600">Number of orders</p>
+                  <p className="text-sm font-medium text-gray-600">
+                    Number of orders
+                  </p>
                   <p className="text-lg font-bold text-gray-900 mt-1">5,249</p>
                   <p className="text-xs text-gray-500 mt-1">Yesterday 5,665</p>
                 </div>
@@ -156,12 +184,17 @@ export default function Index() {
         {/* Operations Assistant Section */}
         <div className="bg-white rounded-2xl p-4 border border-gray-100">
           <div className="flex items-center justify-between mb-3">
-            <h2 className="text-lg font-semibold text-gray-900">Operations Assistant</h2>
-            <Button variant="ghost" className="text-pink-500 hover:text-pink-600 text-sm">
+            <h2 className="text-lg font-semibold text-gray-900">
+              Operations Assistant
+            </h2>
+            <Button
+              variant="ghost"
+              className="text-pink-500 hover:text-pink-600 text-sm"
+            >
               More
             </Button>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
             <OperationsCard
               icon={<Radio className="w-4 h-4 text-white" />}

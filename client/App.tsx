@@ -22,77 +22,77 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
-            <Route 
-              path="/live" 
+            <Route
+              path="/live"
               element={
-                <PlaceholderPage 
-                  title="Live Streaming" 
+                <PlaceholderPage
+                  title="Live Streaming"
                   description="Manage your live streams and broadcast content"
                 />
-              } 
+              }
             />
-            <Route 
-              path="/shop" 
+            <Route
+              path="/shop"
               element={
-                <PlaceholderPage 
-                  title="Shop Management" 
+                <PlaceholderPage
+                  title="Shop Management"
                   description="Manage your products and store settings"
                 />
-              } 
+              }
             />
-            <Route 
-              path="/commodity" 
+            <Route
+              path="/commodity"
               element={
-                <PlaceholderPage 
-                  title="Commodity" 
+                <PlaceholderPage
+                  title="Commodity"
                   description="Manage your inventory and product catalog"
                 />
-              } 
+              }
             />
-            <Route 
-              path="/order" 
+            <Route
+              path="/order"
               element={
-                <PlaceholderPage 
-                  title="Order Management" 
+                <PlaceholderPage
+                  title="Order Management"
                   description="View and manage customer orders"
                 />
-              } 
+              }
             />
-            <Route 
-              path="/data" 
+            <Route
+              path="/data"
               element={
-                <PlaceholderPage 
-                  title="Data Analytics" 
+                <PlaceholderPage
+                  title="Data Analytics"
                   description="View detailed analytics and reports"
                 />
-              } 
+              }
             />
-            <Route 
-              path="/assets" 
+            <Route
+              path="/assets"
               element={
-                <PlaceholderPage 
-                  title="Assets" 
+                <PlaceholderPage
+                  title="Assets"
                   description="Manage your digital assets and resources"
                 />
-              } 
+              }
             />
-            <Route 
-              path="/application" 
+            <Route
+              path="/application"
               element={
-                <PlaceholderPage 
-                  title="Applications" 
+                <PlaceholderPage
+                  title="Applications"
                   description="Manage your integrated applications"
                 />
-              } 
+              }
             />
-            <Route 
-              path="/setup" 
+            <Route
+              path="/setup"
               element={
-                <PlaceholderPage 
-                  title="Settings" 
+                <PlaceholderPage
+                  title="Settings"
                   description="Configure your account and system settings"
                 />
-              } 
+              }
             />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />

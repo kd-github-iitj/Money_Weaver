@@ -50,7 +50,7 @@ export function Sidebar() {
         {navigationItems.map((item) => {
           const Icon = item.icon;
           const isActive = location.pathname === item.href;
-          
+
           return (
             <Link
               key={item.href}
@@ -59,7 +59,7 @@ export function Sidebar() {
                 "flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors",
                 isActive
                   ? "bg-pink-50 text-pink-600 border border-pink-200"
-                  : "text-gray-600 hover:bg-white hover:text-gray-900 hover:shadow-sm"
+                  : "text-gray-600 hover:bg-white hover:text-gray-900 hover:shadow-sm",
               )}
             >
               <Icon className="w-5 h-5" />

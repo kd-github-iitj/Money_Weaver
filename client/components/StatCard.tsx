@@ -10,7 +10,14 @@ interface StatCardProps {
   iconBg: string;
 }
 
-export function StatCard({ title, value, subtitle, icon, bgColor, iconBg }: StatCardProps) {
+export function StatCard({
+  title,
+  value,
+  subtitle,
+  icon,
+  bgColor,
+  iconBg,
+}: StatCardProps) {
   return (
     <div className={cn("rounded-xl p-3 relative overflow-hidden", bgColor)}>
       <div className="flex items-start justify-between">
@@ -19,7 +26,12 @@ export function StatCard({ title, value, subtitle, icon, bgColor, iconBg }: Stat
           <p className="text-xl font-bold mt-1">{value}</p>
           <p className="text-sm opacity-75 mt-1">{subtitle}</p>
         </div>
-        <div className={cn("w-10 h-10 rounded-lg flex items-center justify-center", iconBg)}>
+        <div
+          className={cn(
+            "w-10 h-10 rounded-lg flex items-center justify-center",
+            iconBg,
+          )}
+        >
           {icon}
         </div>
       </div>
