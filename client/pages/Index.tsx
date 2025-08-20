@@ -53,7 +53,7 @@ export default function Index() {
 
         {/* Today's Data Section */}
         <div>
-          <div className="flex items-center justify-between mb-6">
+          <div className="flex items-center justify-between mb-3">
             <h2 className="text-lg font-semibold text-gray-900">Today's data</h2>
             <Button variant="ghost" className="text-pink-500 hover:text-pink-600 text-sm">
               More
@@ -153,14 +153,14 @@ export default function Index() {
 
         {/* Operations Assistant Section */}
         <div>
-          <div className="flex items-center justify-between mb-6">
+          <div className="flex items-center justify-between mb-3">
             <h2 className="text-lg font-semibold text-gray-900">Operations Assistant</h2>
             <Button variant="ghost" className="text-pink-500 hover:text-pink-600 text-sm">
               More
             </Button>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
             <OperationsCard
               icon={<Radio className="w-5 h-5 text-white" />}
               title="Small telecast live"
