@@ -22,7 +22,7 @@ import {
 export default function Index() {
   return (
     <DashboardLayout>
-      <div className="p-8 space-y-8">
+      <div className="h-full overflow-y-auto p-4 space-y-4">
         {/* Hero Section */}
         <div className="flex flex-col xl:flex-row xl:items-center justify-between gap-4">
           <div className="flex-shrink-0">
@@ -60,7 +60,7 @@ export default function Index() {
             </Button>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
             <StatCard
               title="Payment amount"
               value="8,672"
@@ -97,7 +97,7 @@ export default function Index() {
         </div>
 
         {/* Additional Stats Row */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
           <div className="bg-white rounded-2xl p-6 border border-gray-100">
             <div className="flex items-center justify-between">
               <div>
