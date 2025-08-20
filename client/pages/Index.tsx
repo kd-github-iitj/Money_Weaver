@@ -33,17 +33,17 @@ export default function Index() {
           </div>
 
           <div className="flex flex-wrap lg:flex-nowrap gap-3 lg:gap-4">
-            <Button className="bg-pink-500 hover:bg-pink-600 text-white rounded-xl px-6 py-3 h-14 text-sm font-medium">
+            <Button className="bg-pink-500 hover:bg-pink-600 text-white rounded-xl px-6 py-3 h-16 text-sm font-medium">
               <span className="flex items-center gap-2">
                 ✓ Certification <span className="bg-pink-400 text-xs px-2 py-1 rounded-full">Set</span>
               </span>
             </Button>
-            <Button className="bg-blue-500 hover:bg-blue-600 text-white rounded-xl px-6 py-3 h-14 text-sm font-medium">
+            <Button className="bg-blue-500 hover:bg-blue-600 text-white rounded-xl px-6 py-3 h-16 text-sm font-medium">
               <span className="flex items-center gap-2">
                 ↗ Upload a product <span className="bg-blue-400 text-xs px-2 py-1 rounded-full">5/6</span>
               </span>
             </Button>
-            <Button className="bg-purple-500 hover:bg-purple-600 text-white rounded-xl px-6 py-3 h-14 text-sm font-medium">
+            <Button className="bg-purple-500 hover:bg-purple-600 text-white rounded-xl px-6 py-3 h-16 text-sm font-medium">
               <span className="flex items-center gap-2">
                 ↗ Open for sale <span className="bg-purple-400 text-xs px-2 py-1 rounded-full">0/6</span>
               </span>
