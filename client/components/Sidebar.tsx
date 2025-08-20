@@ -31,7 +31,7 @@ export function Sidebar() {
   const location = useLocation();
 
   return (
-    <div className="flex h-screen w-64 flex-col bg-white border-r border-gray-200">
+    <div className="flex h-screen w-56 flex-col bg-white border-r border-gray-200">
       {/* Logo */}
       <div className="flex items-center px-6 py-4">
         <div className="flex items-center gap-3">
