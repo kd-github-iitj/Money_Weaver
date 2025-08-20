@@ -160,7 +160,7 @@ export default function Index() {
             </Button>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
             <OperationsCard
               icon={<Radio className="w-5 h-5 text-white" />}
               title="Small telecast live"
