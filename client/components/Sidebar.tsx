@@ -31,7 +31,7 @@ export function Sidebar() {
   const location = useLocation();
 
   return (
-    <div className="flex h-screen w-48 flex-col bg-white border-r border-gray-200">
+    <div className="flex h-screen w-48 flex-col bg-gray-50">
       {/* Logo */}
       <div className="flex items-center px-6 py-4">
         <div className="flex items-center gap-3">
@@ -59,7 +59,7 @@ export function Sidebar() {
                 "flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors",
                 isActive
                   ? "bg-pink-50 text-pink-600 border border-pink-200"
-                  : "text-gray-600 hover:bg-gray-50 hover:text-gray-900"
+                  : "text-gray-600 hover:bg-white hover:text-gray-900 hover:shadow-sm"
               )}
             >
               <Icon className="w-5 h-5" />
