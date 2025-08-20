@@ -22,45 +22,47 @@ import {
 export default function Index() {
   return (
     <DashboardLayout>
-      <div className="h-full overflow-y-auto p-4 space-y-4">
+      <div className="h-full overflow-y-auto p-4 space-y-6">
         {/* Hero Section */}
-        <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4">
-          <div className="flex-shrink-0">
-            <h1 className="text-2xl font-semibold text-gray-900 mb-2">
-              Well begun is half done
-            </h1>
-            <p className="text-gray-600">Complete the following steps to get started</p>
-          </div>
-
-          <div className="flex flex-wrap lg:flex-nowrap gap-3 lg:gap-4">
-            <Button className="bg-pink-500 hover:bg-pink-600 text-white rounded-xl px-6 py-3 h-16 text-sm font-medium">
-              <span className="flex items-center gap-2">
-                ✓ Certification <span className="bg-pink-400 text-xs px-2 py-1 rounded-full">Set</span>
-              </span>
-            </Button>
-            <Button className="bg-blue-500 hover:bg-blue-600 text-white rounded-xl px-6 py-3 h-16 text-sm font-medium">
-              <span className="flex items-center gap-2">
-                ↗ Upload a product <span className="bg-blue-400 text-xs px-2 py-1 rounded-full">5/6</span>
-              </span>
-            </Button>
-            <Button className="bg-purple-500 hover:bg-purple-600 text-white rounded-xl px-6 py-3 h-16 text-sm font-medium">
-              <span className="flex items-center gap-2">
-                ↗ Open for sale <span className="bg-purple-400 text-xs px-2 py-1 rounded-full">0/6</span>
-              </span>
-            </Button>
+        <div className="bg-white rounded-2xl p-6 border border-gray-100">
+          <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4">
+            <div className="flex-shrink-0">
+              <h1 className="text-2xl font-semibold text-gray-900 mb-2">
+                Well begun is half done
+              </h1>
+              <p className="text-gray-600">Complete the following steps to get started</p>
+            </div>
+            
+            <div className="flex flex-wrap lg:flex-nowrap gap-3 lg:gap-4">
+              <Button className="bg-pink-500 hover:bg-pink-600 text-white rounded-xl px-6 py-3 h-14 text-sm font-medium">
+                <span className="flex items-center gap-2">
+                  ✓ Certification <span className="bg-pink-400 text-xs px-2 py-1 rounded-full">Set</span>
+                </span>
+              </Button>
+              <Button className="bg-blue-500 hover:bg-blue-600 text-white rounded-xl px-6 py-3 h-14 text-sm font-medium">
+                <span className="flex items-center gap-2">
+                  ↗ Upload a product <span className="bg-blue-400 text-xs px-2 py-1 rounded-full">5/6</span>
+                </span>
+              </Button>
+              <Button className="bg-purple-500 hover:bg-purple-600 text-white rounded-xl px-6 py-3 h-14 text-sm font-medium">
+                <span className="flex items-center gap-2">
+                  ↗ Open for sale <span className="bg-purple-400 text-xs px-2 py-1 rounded-full">0/6</span>
+                </span>
+              </Button>
+            </div>
           </div>
         </div>
 
         {/* Today's Data Section */}
-        <div>
-          <div className="flex items-center justify-between mb-3">
+        <div className="bg-white rounded-2xl p-6 border border-gray-100">
+          <div className="flex items-center justify-between mb-4">
             <h2 className="text-lg font-semibold text-gray-900">Today's data</h2>
             <Button variant="ghost" className="text-pink-500 hover:text-pink-600 text-sm">
               More
             </Button>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 mb-4">
             <StatCard
               title="Payment amount"
               value="8,672"
@@ -94,66 +96,66 @@ export default function Index() {
               iconBg="bg-green-400/30"
             />
           </div>
-        </div>
 
-        {/* Additional Stats Row */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
-          <div className="bg-white rounded-xl p-4 border border-gray-100">
-            <div className="flex items-center justify-between">
-              <div>
-                <p className="text-sm font-medium text-gray-600">Live stream viewers</p>
-                <p className="text-xl font-bold text-gray-900 mt-1">23,466</p>
-                <p className="text-sm text-gray-500 mt-1">Yesterday 22.3%</p>
-              </div>
-              <div className="w-10 h-10 bg-orange-100 rounded-lg flex items-center justify-center">
-                <TrendingUp className="w-5 h-5 text-orange-600" />
-              </div>
-            </div>
-          </div>
-          
-          <div className="bg-white rounded-xl p-4 border border-gray-100">
-            <div className="flex items-center justify-between">
-              <div>
-                <p className="text-sm font-medium text-gray-600">New attention</p>
-                <p className="text-xl font-bold text-gray-900 mt-1">590</p>
-                <p className="text-sm text-gray-500 mt-1">Yesterday 86%</p>
-              </div>
-              <div className="w-10 h-10 bg-red-100 rounded-lg flex items-center justify-center">
-                <BarChart3 className="w-5 h-5 text-red-600" />
+          {/* Additional Stats Row */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
+            <div className="bg-gray-50 rounded-xl p-4 border border-gray-100">
+              <div className="flex items-center justify-between">
+                <div>
+                  <p className="text-sm font-medium text-gray-600">Live stream viewers</p>
+                  <p className="text-xl font-bold text-gray-900 mt-1">23,466</p>
+                  <p className="text-sm text-gray-500 mt-1">Yesterday 22.3%</p>
+                </div>
+                <div className="w-10 h-10 bg-orange-100 rounded-lg flex items-center justify-center">
+                  <TrendingUp className="w-5 h-5 text-orange-600" />
+                </div>
               </div>
             </div>
-          </div>
-          
-          <div className="bg-white rounded-xl p-4 border border-gray-100">
-            <div className="flex items-center justify-between">
-              <div>
-                <p className="text-sm font-medium text-gray-600">Cumulative attention</p>
-                <p className="text-xl font-bold text-gray-900 mt-1">135,743</p>
-                <p className="text-sm text-gray-500 mt-1">Yesterday 143,052</p>
-              </div>
-              <div className="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center">
-                <Target className="w-5 h-5 text-purple-600" />
+            
+            <div className="bg-gray-50 rounded-xl p-4 border border-gray-100">
+              <div className="flex items-center justify-between">
+                <div>
+                  <p className="text-sm font-medium text-gray-600">New attention</p>
+                  <p className="text-xl font-bold text-gray-900 mt-1">590</p>
+                  <p className="text-sm text-gray-500 mt-1">Yesterday 86%</p>
+                </div>
+                <div className="w-10 h-10 bg-red-100 rounded-lg flex items-center justify-center">
+                  <BarChart3 className="w-5 h-5 text-red-600" />
+                </div>
               </div>
             </div>
-          </div>
-          
-          <div className="bg-white rounded-xl p-4 border border-gray-100">
-            <div className="flex items-center justify-between">
-              <div>
-                <p className="text-sm font-medium text-gray-600">Number of orders</p>
-                <p className="text-xl font-bold text-gray-900 mt-1">5,249</p>
-                <p className="text-sm text-gray-500 mt-1">Yesterday 5,665</p>
+            
+            <div className="bg-gray-50 rounded-xl p-4 border border-gray-100">
+              <div className="flex items-center justify-between">
+                <div>
+                  <p className="text-sm font-medium text-gray-600">Cumulative attention</p>
+                  <p className="text-xl font-bold text-gray-900 mt-1">135,743</p>
+                  <p className="text-sm text-gray-500 mt-1">Yesterday 143,052</p>
+                </div>
+                <div className="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center">
+                  <Target className="w-5 h-5 text-purple-600" />
+                </div>
               </div>
-              <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center">
-                <ShoppingBag className="w-5 h-5 text-green-600" />
+            </div>
+            
+            <div className="bg-gray-50 rounded-xl p-4 border border-gray-100">
+              <div className="flex items-center justify-between">
+                <div>
+                  <p className="text-sm font-medium text-gray-600">Number of orders</p>
+                  <p className="text-xl font-bold text-gray-900 mt-1">5,249</p>
+                  <p className="text-sm text-gray-500 mt-1">Yesterday 5,665</p>
+                </div>
+                <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center">
+                  <ShoppingBag className="w-5 h-5 text-green-600" />
+                </div>
               </div>
             </div>
           </div>
         </div>
 
         {/* Operations Assistant Section */}
-        <div>
-          <div className="flex items-center justify-between mb-3">
+        <div className="bg-white rounded-2xl p-6 border border-gray-100">
+          <div className="flex items-center justify-between mb-4">
             <h2 className="text-lg font-semibold text-gray-900">Operations Assistant</h2>
             <Button variant="ghost" className="text-pink-500 hover:text-pink-600 text-sm">
               More
