@@ -9,8 +9,8 @@ interface OperationsCardProps {
 
 export function OperationsCard({ icon, title, subtitle, iconColor }: OperationsCardProps) {
   return (
-    <div className="flex items-center gap-3 p-3 bg-white rounded-lg border border-gray-100 hover:shadow-md transition-shadow">
-      <div className={`w-8 h-8 rounded-full flex items-center justify-center ${iconColor}`}>
+    <div className="flex items-center gap-2 p-2 bg-white rounded-lg border border-gray-100 hover:shadow-md transition-shadow">
+      <div className={`w-7 h-7 rounded-full flex items-center justify-center ${iconColor}`}>
         {icon}
       </div>
       <div className="flex-1">

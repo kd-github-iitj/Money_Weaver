@@ -12,7 +12,7 @@ interface StatCardProps {
 
 export function StatCard({ title, value, subtitle, icon, bgColor, iconBg }: StatCardProps) {
   return (
-    <div className={cn("rounded-xl p-4 relative overflow-hidden", bgColor)}>
+    <div className={cn("rounded-xl p-3 relative overflow-hidden", bgColor)}>
       <div className="flex items-start justify-between">
         <div className="text-white">
           <p className="text-sm font-medium opacity-90">{title}</p>
