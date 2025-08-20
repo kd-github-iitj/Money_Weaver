@@ -24,7 +24,7 @@ export default function Index() {
     <DashboardLayout>
       <div className="p-8 space-y-8">
         {/* Hero Section */}
-        <div className="flex flex-col xl:flex-row xl:items-center justify-between gap-6">
+        <div className="flex flex-col xl:flex-row xl:items-center justify-between gap-4">
           <div className="flex-shrink-0">
             <h1 className="text-2xl font-semibold text-gray-900 mb-2">
               Well begun is half done
@@ -33,17 +33,17 @@ export default function Index() {
           </div>
 
           <div className="flex flex-wrap xl:flex-nowrap gap-3 xl:gap-4">
-            <Button className="bg-pink-500 hover:bg-pink-600 text-white rounded-xl px-6 py-4 h-12 text-sm font-medium">
+            <Button className="bg-pink-500 hover:bg-pink-600 text-white rounded-lg px-4 py-2 h-10 text-sm font-medium">
               <span className="flex items-center gap-2">
                 ✓ Certification <span className="bg-pink-400 text-xs px-2 py-1 rounded-full">Set</span>
               </span>
             </Button>
-            <Button className="bg-blue-500 hover:bg-blue-600 text-white rounded-xl px-6 py-4 h-12 text-sm font-medium">
+            <Button className="bg-blue-500 hover:bg-blue-600 text-white rounded-lg px-4 py-2 h-10 text-sm font-medium">
               <span className="flex items-center gap-2">
                 ↗ Upload a product <span className="bg-blue-400 text-xs px-2 py-1 rounded-full">5/6</span>
               </span>
             </Button>
-            <Button className="bg-purple-500 hover:bg-purple-600 text-white rounded-xl px-6 py-4 h-12 text-sm font-medium">
+            <Button className="bg-purple-500 hover:bg-purple-600 text-white rounded-lg px-4 py-2 h-10 text-sm font-medium">
               <span className="flex items-center gap-2">
                 ↗ Open for sale <span className="bg-purple-400 text-xs px-2 py-1 rounded-full">0/6</span>
               </span>
