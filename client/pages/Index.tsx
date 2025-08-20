@@ -27,7 +27,7 @@ export default function Index() {
         <div className="bg-white rounded-2xl p-4 border border-gray-100">
           <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-3">
             <div className="flex-shrink-0">
-              <h1 className="text-xl font-semibold text-gray-900 mb-1">
+              <h1 className="text-xl font-semibold text-pink-500 mb-1">
                 Well begun is half done
               </h1>
               <p className="text-gray-600 text-sm">
@@ -36,29 +36,44 @@ export default function Index() {
             </div>
 
             <div className="flex flex-wrap lg:flex-nowrap gap-2 lg:gap-3">
-              <Button className="bg-pink-500 hover:bg-pink-600 text-white rounded-lg px-4 py-2 h-10 text-sm font-medium">
-                <span className="flex items-center gap-2">
-                  ✓ Certification{" "}
-                  <span className="bg-pink-400 text-xs px-2 py-1 rounded-full">
-                    Set
-                  </span>
-                </span>
+              <Button className="bg-pink-500 hover:bg-pink-600 text-white rounded-xl px-4 py-2 h-16 text-sm font-medium">
+                <div className="flex items-start justify-between w-full gap-2">
+                  <div className="flex flex-col items-start">
+                    <p>1.Certification</p>
+                    <p className="text-xs font-thin">Upload qualification information</p>
+                  </div>
+                  <div className="bg-pink-400 text-xs px-2 py-1 rounded-full">
+                    Go   
+                  </div>
+                </div>
               </Button>
-              <Button className="bg-blue-500 hover:bg-blue-600 text-white rounded-lg px-4 py-2 h-10 text-sm font-medium">
-                <span className="flex items-center gap-2">
-                  ↗ Upload a product{" "}
-                  <span className="bg-blue-400 text-xs px-2 py-1 rounded-full">
-                    5/6
-                  </span>
-                </span>
+              <Button className="bg-blue-500 hover:bg-blue-600 text-white rounded-xl px-6 py-4 h-16 text-sm font-medium">
+                <div className="flex items-start justify-between w-full gap-2">
+                  <div className="flex flex-col items-start">
+                    <p>2.Uplaod a product</p>
+                    <p className="text-xs font-thin">Fill in product information</p>
+                  </div>
+                  <div className="bg-blue-400 text-xs px-2 py-1 rounded-full">
+                    Go   
+                  </div>
+                </div>
               </Button>
-              <Button className="bg-purple-500 hover:bg-purple-600 text-white rounded-lg px-4 py-2 h-10 text-sm font-medium">
-                <span className="flex items-center gap-2">
+              <Button className="bg-purple-500 hover:bg-purple-600 text-white rounded-xl px-6 py-4 h-16 text-sm font-medium">
+                {/* <span className="flex items-center gap-2">
                   ↗ Open for sale{" "}
                   <span className="bg-purple-400 text-xs px-2 py-1 rounded-full">
                     0/6
                   </span>
-                </span>
+                </span> */}
+                <div className="flex items-start justify-between w-full gap-2">
+                  <div className="flex flex-col items-start">
+                    <p>3.open for sale</p>
+                    <p className="text-xs font-thin">Choose to open any sales channel</p>
+                  </div>
+                  <div className="bg-purple-400 text-xs px-2 py-1 rounded-full">
+                    Go   
+                  </div>
+                </div>
               </Button>
             </div>
           </div>
@@ -124,9 +139,9 @@ export default function Index() {
                   <p className="text-lg font-bold text-gray-900 mt-1">23,466</p>
                   <p className="text-xs text-gray-500 mt-1">Yesterday 22.3%</p>
                 </div>
-                <div className="w-8 h-8 bg-orange-100 rounded-lg flex items-center justify-center">
+                {/* <div className="w-8 h-8 bg-orange-100 rounded-lg flex items-center justify-center">
                   <TrendingUp className="w-4 h-4 text-orange-600" />
-                </div>
+                </div> */}
               </div>
             </div>
 
@@ -139,9 +154,9 @@ export default function Index() {
                   <p className="text-lg font-bold text-gray-900 mt-1">590</p>
                   <p className="text-xs text-gray-500 mt-1">Yesterday 86%</p>
                 </div>
-                <div className="w-8 h-8 bg-red-100 rounded-lg flex items-center justify-center">
+                {/* <div className="w-8 h-8 bg-red-100 rounded-lg flex items-center justify-center">
                   <BarChart3 className="w-4 h-4 text-red-600" />
-                </div>
+                </div> */}
               </div>
             </div>
 
@@ -158,9 +173,9 @@ export default function Index() {
                     Yesterday 143,052
                   </p>
                 </div>
-                <div className="w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center">
+                {/* <div className="w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center">
                   <Target className="w-4 h-4 text-purple-600" />
-                </div>
+                </div> */}
               </div>
             </div>
 
@@ -173,9 +188,9 @@ export default function Index() {
                   <p className="text-lg font-bold text-gray-900 mt-1">5,249</p>
                   <p className="text-xs text-gray-500 mt-1">Yesterday 5,665</p>
                 </div>
-                <div className="w-8 h-8 bg-green-100 rounded-lg flex items-center justify-center">
+                {/* <div className="w-8 h-8 bg-green-100 rounded-lg flex items-center justify-center">
                   <ShoppingBag className="w-4 h-4 text-green-600" />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
