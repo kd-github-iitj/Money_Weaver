@@ -31,12 +31,12 @@ export default function Index() {
                 Well begun is half done
               </h1>
               <p className="text-gray-600 text-sm">
-                Complete the following steps to get started
+                Complete the following steps to sell
               </p>
             </div>
 
             <div className="flex flex-wrap lg:flex-nowrap gap-2 lg:gap-3">
-              <Button className="bg-pink-500 hover:bg-pink-600 text-white rounded-xl px-4 py-2 h-16 text-sm font-medium">
+              <Button className="bg-pink-500 hover:bg-pink-600 text-white rounded-xl px-4 py-2 h-20 text-sm font-medium shadow-lg">
                 <div className="flex items-start justify-between w-full gap-2">
                   <div className="flex flex-col items-start">
                     <p>1.Certification</p>
@@ -47,7 +47,7 @@ export default function Index() {
                   </div>
                 </div>
               </Button>
-              <Button className="bg-blue-500 hover:bg-blue-600 text-white rounded-xl px-6 py-4 h-16 text-sm font-medium">
+              <Button className="bg-blue-500 hover:bg-blue-600 text-white rounded-xl px-6 py-4 h-20 text-sm font-medium shadow-lg">
                 <div className="flex items-start justify-between w-full gap-2">
                   <div className="flex flex-col items-start">
                     <p>2.Uplaod a product</p>
@@ -58,7 +58,7 @@ export default function Index() {
                   </div>
                 </div>
               </Button>
-              <Button className="bg-purple-500 hover:bg-purple-600 text-white rounded-xl px-6 py-4 h-16 text-sm font-medium">
+              <Button className="bg-purple-500 hover:bg-purple-600 text-white rounded-xl px-6 py-4 h-20 text-sm font-medium shadow-lg">
                 {/* <span className="flex items-center gap-2">
                   ↗ Open for sale{" "}
                   <span className="bg-purple-400 text-xs px-2 py-1 rounded-full">
@@ -67,7 +67,7 @@ export default function Index() {
                 </span> */}
                 <div className="flex items-start justify-between w-full gap-2">
                   <div className="flex flex-col items-start">
-                    <p>3.open for sale</p>
+                    <p>3.Open for sale</p>
                     <p className="text-xs font-thin">Choose to open any sales channel</p>
                   </div>
                   <div className="bg-purple-400 text-xs px-2 py-1 rounded-full">
