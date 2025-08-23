@@ -2,6 +2,9 @@ import { DashboardLayout } from "@/components/DashboardLayout";
 import { StatCard } from "@/components/StatCard";
 import { OperationsCard } from "@/components/OperationsCard";
 import { Button } from "@/components/ui/button";
+import { RevenueChart } from "@/components/RevenueChart";
+import { RevenuePieChart } from "@/components/RevenuePieChart";
+import { MonthlyBarChart } from "@/components/MonthlyBarChart";
 import {
   DollarSign,
   FileText,
@@ -193,6 +196,63 @@ export default function Index() {
                 </div> */}
               </div>
             </div>
+          </div>
+        </div>
+
+        {/* Revenue Analytics Charts Section */}
+        <div className="bg-white rounded-2xl p-4 border border-gray-100">
+          <div className="flex items-center justify-between mb-4">
+            <h2 className="text-lg font-semibold text-gray-900">
+              Revenue Analytics
+            </h2>
+            <div className="flex items-center gap-2">
+              <Button
+                variant="ghost"
+                className="text-pink-500 hover:text-pink-600 text-sm"
+              >
+                Last 7 days
+              </Button>
+              <Button
+                variant="ghost"
+                className="text-pink-500 hover:text-pink-600 text-sm"
+              >
+                Last 30 days
+              </Button>
+            </div>
+          </div>
+          
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div>
+              <h3 className="text-sm font-medium text-gray-600 mb-3">Weekly Revenue Trend</h3>
+              <div className="h-64">
+                <RevenueChart />
+              </div>
+            </div>
+            <div>
+              <h3 className="text-sm font-medium text-gray-600 mb-3">Revenue by Category</h3>
+              <div className="h-64">
+                <RevenuePieChart />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Monthly Performance Chart Section */}
+        <div className="bg-white rounded-2xl p-4 border border-gray-100">
+          <div className="flex items-center justify-between mb-4">
+            <h2 className="text-lg font-semibold text-gray-900">
+              Monthly Performance
+            </h2>
+            <Button
+              variant="ghost"
+              className="text-pink-500 hover:text-pink-600 text-sm"
+            >
+              View Details
+            </Button>
+          </div>
+          
+          <div className="h-80">
+            <MonthlyBarChart />
           </div>
         </div>
 
